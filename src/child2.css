@@ -1,0 +1,20 @@
+.container{
+    height: 150px;
+    width: 200px;
+    background-color: green;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 50px 0 0 60px;
+   transition: all 0.5s;
+   transition-delay:0.2s;
+   /* transition: all 1s linear  ; */
+
+}
+.container:hover{
+    width: 250px;
+    height: 200px;
+    background-color: aqua;
+    color: white;
+
+}
